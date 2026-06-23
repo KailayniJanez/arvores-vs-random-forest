@@ -1,0 +1,61 @@
+
+---
+
+## 📄 2. .gitignore
+
+```gitignore
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb
+!*.ipynb
+*.pyc
+__pycache__/
+*.pkl
+*.pickle
+
+# Python
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.venv/
+.env/
+virtualenv/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Data
+*.csv
+*.xlsx
+*.xls
+*.tsv
+*.parquet
+*.feather
+
+# Logs
+*.log
+*.out
+*.err
+
+# Models
+*.joblib
+*.sav
+
+# Visual Studio Code
+.vscode/
